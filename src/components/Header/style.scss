@@ -1,0 +1,24 @@
+.header{
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 130px;
+
+    //setando os tamanhos para determinado tipo de tela
+    @media #{$BREAKPOINT-DESK} {
+        height: 320px;
+    }
+
+
+        &__logo{
+            width: 80%;
+
+            @media #{$BREAKPOINT-DESK} {
+                width: 50%;
+            }       
+        }
+}

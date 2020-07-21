@@ -1,0 +1,12 @@
+//importando o conf e global
+@import "./conf";
+@import "./global.scss"; 
+
+
+//components
+@import "../../components/Footer/style.scss";
+@import "../../components/Header/style.scss";
+@import "../../components/Progress/style.scss";
+
+//pages
+@import "../../pages/Home/style.scss";
