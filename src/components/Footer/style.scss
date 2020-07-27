@@ -1,0 +1,42 @@
+.footer {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 130px;
+  margin-top: 80px;
+  background: #8a2387; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #b51942,
+    #e94057,
+    #063263
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #b51942,
+    #e94057,
+    #063263
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  &__social {
+    width: 100%;
+    padding-top: 10px;
+
+    display: flex; //alinha centralmente na vertical
+    justify-content: center; //alinha centralmente na vertical
+
+    a + a {
+      margin-left: 8px;
+    }
+  }
+
+  &__copyright {
+    position: absolute;
+    bottom: 10px;
+
+    width: 100%;
+    text-align: center;
+    color: white;
+  }
+}

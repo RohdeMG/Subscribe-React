@@ -15,10 +15,20 @@
 
 
         &__logo{
-            width: 80%;
+            width: 13%;
 
             @media #{$BREAKPOINT-DESK} {
-                width: 50%;
+                width: 15%;
             }       
+
+            @media #{$BREAKPOINT-TABLET-LAND} {
+                width: 15%;
+            }
+           
+
+            @media #{$BREAKPOINT-MOBILE-LAND} {
+                width: 20%;
+            } 
+         
         }
 }
